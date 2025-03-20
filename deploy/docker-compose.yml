@@ -3,7 +3,7 @@ services:
   servidor:
     build:
       context: ${CONTEXTO}
-      dockerfile: ./dockerfiles/js/react/jls-Dockerfile
+      dockerfile: ./dockerfiles/js/react/Dockerfile
       args: 
         - CONTEXT=${CONTEXTO}
         - TZ=${TZ}
