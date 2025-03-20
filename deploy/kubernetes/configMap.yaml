@@ -6,10 +6,10 @@ data:
   CONTEXTO: /home/CaronteWeb
   AUTOR: fabiofabrega
   TZ: Europe/Madrid
-  PROYECTO: Pokeapi
+  PROYECTO: api
   GITHUB: https://github.com/FabioFabrega/Api.git
-  USUARIO: juanluis
-  PASSWD: usuario
+  USUARIO: fabio
+  PASSWD: fabio
   HOSTNAME: react
   PORT_SSH: "45678"
   PORT_ORIGEN: "8083"

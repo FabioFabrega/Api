@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pokeapi-kube
+  name: api
 spec:
   accessModes:
     - ReadWriteOnce
