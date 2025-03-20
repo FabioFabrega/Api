@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         K8S_SERVER = "https://167.86.96.79:8443" // IP de tu VPS
-        K8S_TOKEN = credentials('token')
+        K8S_TOKEN = credentials('k8s-token')
         NAMESPACE="default" // Nombre del namespace en el que se desplegará la aplicación
         DOCKER_IMAGE = "fabiofabreta/api"
         DOCKER_TAG = "latest"
