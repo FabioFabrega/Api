@@ -22,4 +22,4 @@ spec:
             - name: PROYECTO
               value: "Pokeapi"
             - name: GITHUB
-              value: "https://github.com/FabioFabrega/Api.git"
+              value: "https://github.com/Txus27/Pokeapi.git"
