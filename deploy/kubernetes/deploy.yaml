@@ -14,7 +14,7 @@ spec:
         app: api
     spec:
       containers:
-        - name: pokeapi-kube
+        - name: api
           image: fabiofabrega/api
           env:
             - name: USUARIO
