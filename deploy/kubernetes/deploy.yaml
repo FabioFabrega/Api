@@ -15,10 +15,10 @@ spec:
     spec:
       containers:
         - name: pokeapi-kube
-          image: fabiofabrega/api
+          image: txus027/pokeapi
           env:
             - name: USUARIO
-              value: "fabiofabrega"
+              value: "juanlu"
             - name: PROYECTO
               value: "Pokeapi"
             - name: GITHUB
