@@ -4,7 +4,7 @@ metadata:
   name: app-env-config
 data:
   CONTEXTO: /home/CaronteWeb
-  AUTOR: txus027
+  AUTOR: fabiofabrega
   TZ: Europe/Madrid
   PROYECTO: Pokeapi
   GITHUB: https://github.com/FabioFabrega/Api.git
