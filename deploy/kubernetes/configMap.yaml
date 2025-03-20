@@ -3,11 +3,11 @@ kind: ConfigMap
 metadata:
   name: app-env-config
 data:
-  CONTEXTO: /home/juanlu/ubuntu/caronte
+  CONTEXTO: /home/CaronteWeb
   AUTOR: txus027
   TZ: Europe/Madrid
   PROYECTO: Pokeapi
-  GITHUB: https://github.com/Txus27/Pokeapi.git
+  GITHUB: https://github.com/FabioFabrega/Api.git
   USUARIO: juanluis
   PASSWD: usuario
   HOSTNAME: react
