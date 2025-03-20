@@ -20,6 +20,6 @@ spec:
             - name: USUARIO
               value: "fabio"
             - name: PROYECTO
-              value: "api"
+              value: "Api"
             - name: GITHUB
               value: "https://github.com/FabioFabrega/Api.git"
