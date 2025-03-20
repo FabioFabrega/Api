@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     app: api
-  type: api  # Tipo de servicio
+  type: NodePort  # Cambiado a un tipo válido de servicio
   ports:
   - name: http-port
     protocol: TCP
