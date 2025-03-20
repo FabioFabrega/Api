@@ -1,25 +1,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: api
+  name: pokeapi-kube
   namespace: default
 spec:
-  replicas: 2 # Número de réplicas
+  replicas: 1 # Número de réplicas
   selector:
     matchLabels:
-      app: api
+      app: pokeapi-kube
   template:
     metadata:
       labels:
-        app: api
+        app: pokeapi-kube
     spec:
       containers:
-        - name: api
-          image: fabiofabrega/api
+        - name: pokeapi-kube
+          image: txus027/pokeapi
           env:
             - name: USUARIO
-              value: "fabio"
+              value: "juanlu"
             - name: PROYECTO
-              value: "api"
+              value: "Pokeapi"
             - name: GITHUB
-              value: "https://github.com/FabioFabrega/Api.git"
+              value: "https://github.com/Txus27/Pokeapi.git"
