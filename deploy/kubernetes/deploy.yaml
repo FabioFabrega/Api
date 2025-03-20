@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: pokeapi-kube
-          image: deyvid14/pokeapi:v2
+          image: fabiofabrega/pokeapi
           env:
             - name: USUARIO
               value: "fabio"
