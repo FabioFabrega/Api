@@ -4,7 +4,7 @@ metadata:
   name: api
   namespace: default
 spec:
-  replicas: 1 # Número de réplicas
+  replicas: 2 # Número de réplicas
   selector:
     matchLabels:
       app: api
