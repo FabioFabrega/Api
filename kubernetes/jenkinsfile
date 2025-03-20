@@ -6,9 +6,9 @@ pipeline {
         NAMESPACE="default"
     }
     stages {
-        stage('Clonar repositorio git Autocaravaneando desde Github ok') {
+        stage('Clonar repositorio git api desde Github ok') {
             steps {
-                git branch: 'master', url: 'https://github.com/morgadodesarrollador/Autocaravaneando.git'
+                git branch: 'master', url: 'https://github.com/FabioFabrega/Api.git'
             }
         }
         // stage('Docker Build & Push') { 
